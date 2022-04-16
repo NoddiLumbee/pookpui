@@ -1,0 +1,34 @@
+.navbar-logo {
+    background-image: url(/assets/images/logo_pookpui.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 130px;
+}
+
+.flat-logo {
+    background-image: url(/assets/images/flat.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 58px;
+}
+
+.btn.btn-outline-light {
+    padding: 10px 22px;
+}
+
+.cart-icon {
+    font-size: 32px;
+    margin-bottom: -8.5px;
+}
+
+#cart {
+    margin-top: -12px;
+}
+
+#cart :hover{
+    color: #f33f3f;
+}
+
+.active #cart {
+    color: #f33f3f;
+}

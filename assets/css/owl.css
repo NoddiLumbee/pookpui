@@ -3,9 +3,35 @@
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
+
+.owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-nav :hover {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.owl-nav :focus {
+  outline: none;
+}
+
+[aria-label="Previous"] {
+  font-size: 40px;
+}
+[aria-label="Next"] {
+  font-size: 40px;
+}
+
 /*
  *  Owl Carousel - Core
  */
+ 
 .owl-carousel {
   display: none;
   width: 100%;
