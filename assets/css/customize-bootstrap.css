@@ -32,3 +32,25 @@
 .active #cart {
     color: #f33f3f;
 }
+
+.down-content p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    
+  }
+
+  .down-content a{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    width: 70%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .product-item img {
+      height: 160px;
+      object-fit: cover;
+  }
